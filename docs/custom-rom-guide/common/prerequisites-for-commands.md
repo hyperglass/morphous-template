@@ -64,7 +64,59 @@ Make Sure you've written the correct command that is mentioned in the guide and 
 | Then paste inside the Command Prompt Window `Ctrl+V`  |
 
 
-
-
 > We have taken this approach as file-names and their versions might get updated and/or differ from the given commands.
+:::
+
+
+## Naming conventions <Badge type="tip">Optional</Badge>
+
+:::details Custom ROM Zip File Naming conventions
+By using this generalized template, we can accommodate the various naming conventions used by different custom ROMs. This approach ensures that regardless of the specific format, the essential elements are always captured, providing clarity and consistency across different ROMs.
+
+1. **(Custom-ROM_Name)**:
+   - The name of the custom ROM (e.g., CrDroidAndroid, HavocOS, NitrogenOS, ArrowOS, LineageOS).
+
+2. **(Android Version)**:
+   - The version of Android the ROM is based on (e.g., 14).
+
+3. **(Date Format)**:
+   - Date formats can vary:
+   - Full date: YYYYMMDD (e.g., 20240401 for April 1st, 2024)
+   - Year and month: YYYYMM (e.g., 202404 for April 2024)
+   - Year only: YYYY (e.g., 2024)
+
+4. **(Device Codename)**:
+   - The codename for the device the ROM is intended for (e.g., marble).
+
+5. **(Custom-ROM Version)**:
+   - Different ways to indicate the ROM version:
+     - Custom-ROM version (e.g., v11.0, 19.1)
+
+6. **(Channel|OFFICIAL|UNOFFICIAL|Vanilla-Build|GAPPs Build)**:
+   - Indicates the release channel or status of the ROM:
+     - Channel (e.g., Beta2, nightly)
+     - OFFICIAL
+     - UNOFFICIAL
+
+:::info Examples of Applying the Template:
+
+1. **Simplified Date**:
+   - `CrDroidAndroid-14-2024-marble-v11.0-OFFICIAL.zip`
+   - Year only.
+
+2. **Channel Indicator**:
+   - `NitrogenOS-14-Beta2-marble-20240401-OFFICIAL.zip`
+   - Indicates it's a beta release "Beta2".
+
+3. **No custom ROM version**:
+   - `Arrow-v11.0-alioth-OFFICIAL-20220920-VANILLA.zip`
+   - No custom ROM version, only Android version.
+
+4. **LineageOS Specific**:
+   - `lineage-19.1-20240401-nightly-marble.zip`
+   - Major.Minor.x versioning system, with a nightly build indicator.
+
+5. **Vanilla Indicator**:
+   - `Arrow-v11.0-alioth-OFFICIAL-20220920-VANILLA.zip`
+   - Indicates absence of already installed GAPPs.
 :::
