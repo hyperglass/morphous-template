@@ -2,23 +2,29 @@
 aside: false
 next: false
 ---
+
+
 # Rooting Your Android Device (Redmi Note 12 Turbo/POCO F5)
-> Codename: marble
-## Rooting Device using Suggested Method (Custom ROM Specific)
+> Codename: <!-- Device Codename comes here. -->
+
+
+## Rooting Device using Suggested Method (Custom ROM Specific) <!-- Part A starts from here. This portion can be removed if no developer provides a flashable boot.img related zip file for their Custom ROM. -->
 > This method is not for Stock ROM.
 
 :::info VERY IMPORTANT
 You may need to flash `Boot.img` or flash a kernel zip **(later check _Changing Kernel_ in the end for that)** provided by the Developer of the Custom ROM you use, so do check the official rom Tg group...
 
-* Flash to `Boot`, both partitions for A/B partitioned devices.
+* Flash to `Boot`, both partitions for A/B partitioned devices. <!-- Instructions to be changed according to the device having a single partition or is A/B partitioned. -->
 
 > Example: I'm using EvolutionX 9.0 and hence I need to flash LosKsu 9.x.zip for Root.
 :::
 
 Then install KernelSU:
 * Download the `KernelSU_<version>-release.apk` file from the latest release [here](https://github.com/tiann/KernelSU/releases) from GitHub.
+<!-- Part A ends from here. -->
 
-## Rooting via Custom Recovery
+
+## Rooting via Custom Recovery <!-- Part B starts from here. This part can be heavily changed based on the steps required to root your device. -->
 **Method 1:**
 1)  Reboot into Recovery Mode then go to `ADVANCED` and **Install Magisk** directly.
 2) Install Magisk Manager: Now booting into Android and install the Magisk Manager app (install Magisk APK File).
@@ -57,14 +63,11 @@ fastboot boot <file name with extention>
 After doing so, your device should be rooted **temporarily**.\
 Now open the Magisk/KernelSU app and direct install. Reboot. That's it!
 
+<!-- Part B ends from here. -->
 
 
 
-
-
-
-
-## Latest Zygisk and LSposed
+## Latest Zygisk and LSposed <!-- The below links and content can be changed according to rooted device requirements. -->
 > These can be installed inside Magisk/Kitsune/KernelSU/etc. Manager apps
 
 :::tip ZygiskNext
@@ -77,10 +80,9 @@ We would have used  [`LSPosed`](https://github.com/LSPosed/LSPosed) but it has b
 
 [Download LSPosed_mod from GitHub](https://github.com/mywalkb/LSPosed_mod/releases)
 :::
-
 - - -
 
-:::info Re-Root <Badge type="info">FAQ</Badge>
+:::info Re-Root <Badge type="info">FAQ</Badge> <!-- No change required here. -->
 You might need to redo the rooting process after an OTA update or Dirty Flashing since the update reverts the `Boot.img` changes.
 :::
 

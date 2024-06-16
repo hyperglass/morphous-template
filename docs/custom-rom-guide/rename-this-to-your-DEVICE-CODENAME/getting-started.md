@@ -1,3 +1,7 @@
+<!-- This is an example comment. Instructions for using the template will be written in this way. -->
+<!-- Use Inline when the comment starts and ends with this character: '`' (backtick) -->
+<!-- Read more instructions in index.md if not already seen. -->
+
 # Getting Started
 > Windows PC is Required in this guide even if alternative methods may be possible.
 
@@ -6,7 +10,7 @@
  **Do not skip this crucial step, particularly if your device holds any critical data.**
 :::
 
-::: warning BEFORE WE GET STARTED...
+:::warning BEFORE WE GET STARTED...
 The links or instructions are specifically for POCO F5. The files and instructions required might be different for other devices.
 Using files or instructions designed for a different device poses a significant risk and can lead to malfunctions. Please ensure you have the correct files before proceeding.
 :::
@@ -14,9 +18,9 @@ Using files or instructions designed for a different device poses a significant 
 ## Codename 
 
 > It's really important to know the codename of your device as it ensures compatibility and helps in finding the right software for it. Search for your device's codename on the web.\
-A simple "what is __poco f5__ codename" web search will do the work.
+A simple "what is __<!-- Device Codename comes here. -->__ codename" web search will do the work.
 
-**Poco F5 (also known as Redmi Note 12 Turbo) is Codenamed `Marble`**
+**<!-- Device name(s) comes here. Should be specific model i.e Pro,S,R,Plus,etc. --> is Codenamed <!-- `Device Codename comes here`  -->**
 
 ## Availability
 We can't easily install a ROM on a device if it's not readily available for our device. To check for its availability, we look on XDA.
@@ -30,7 +34,7 @@ We can't easily install a ROM on a device if it's not readily available for our 
    > For the search function you may need to Register/Login into XDA Forums.
 
 3. **Look for ROM Threads**:
-   - Search for threads related to custom ROMs for the POCO F5. Look for titles that include “`[POCO F5]` `[ROM]`" or similar.
+   - Search for threads related to custom ROMs for the POCO F5. Look for titles that include “[<!-- `[Device name within square brackets comes here]`  -->] `[ROM]`" or similar.
 
 4. **Read Thread Contents**:
    - Examine the features, installation instructions, compatibility notes, known issues, and user feedback provided in the threads. This will give you a comprehensive understanding of what to expect from the ROM.\
@@ -44,9 +48,9 @@ We can't easily install a ROM on a device if it's not readily available for our 
 :::
 
 You can also check for ROMs on your device's Telegram group. 
-::: info How to check on Telegram App
+:::info How to check on Telegram App
 1. Search for your device's official Telegram group
-   - A web search like **'poco f5 telegram'** should get you there.
+   - A web search like **'<!-- Device name in lowercase comes here.  --> telegram'** should get you there.
    - Or you can install Telegram Desktop and type that in the search box.
    > You should see an '**Updates**' channel/group.
 2. Read posts' contents: 
@@ -68,7 +72,7 @@ Devices with Qualcomm Snapdragon chipsets generally have better compatibility an
 Mediatek devices can be bootloader-unlocked by using the official tools the manufacturer provides or by using exploits, such as [MTKClient](https://github.com/bkerler/mtkclient).
 :::
 
-**Redmi Note 12 Turbo/Poco F5 is equipped with a Qualcomm Snapdragon processor.**
+**<!-- Device name(s) comes here. Should be specific model i.e Pro,S,R,Plus,etc. --> is equipped with a <!-- name of the Processor used by the device comes here (Generally Qualcomm Snapdragon or MediaTek). -->.**
 
 ## Choosing Custom ROM
 When choosing a Custom ROM, prioritize features that match your preferences. ROMs range from providing a clean, stock Android experience with minimal bloatware to offering extensive customization options for themes, icons, and performance. Consider if you value a pure Android experience or a heavily customized one to find the ROM that best suits your needs. 

@@ -1,6 +1,7 @@
 ---
 aside: false
 ---
+<!-- THIS WHOLE PAGE MAY REQUIRE A LOT OF MODIFICATIONS. THESE INSTRUCTIONS ARE AN EXAMPLE OF POCO F5 SOFTBRICK HELP. -->
 
 # Softbrick Help
 To make sure whether your device is Softbricked and not Hardbricked, Refer this [page for more information of bricking](/custom-rom-guide/common/about-brick).
@@ -36,7 +37,7 @@ Using this method we will be able to get back to MIUI even if you're device is c
 :::
 
 
-### Download **Mi Flash Tool** on PC.
+### Download **Mi Flash Tool** on PC. <!-- Instructions on this page may differ a lot for different device. -->
 <CustomButton link="https://drive.google.com/file/d/1GtC4IzYj1TIj20pxG5MRce-mUtNLw_mb/view?usp=sharing" label="Download Mi Flash Tool from Google Drive" />
 > Once you have the downloaded the archive, extract it.
 

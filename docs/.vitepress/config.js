@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress';
 
-// Marble links
-const marbleLinks = [
+/*Do not add extra space (Example: VenusLinks, MarbleLinks, HuskyLinks*/
+/*CODENAME*/Links = [
   {
     text: 'Installation',
     items: [
-      { text: 'Getting Started', link: '/custom-rom-guide/marble/getting-started' },
+      { text: 'Getting Started', link: '/custom-rom-guide/     <!-- DEVICE CODENAME -->    /getting-started' },         /*Edit This Line*/
       {
         text: 'Preparing Settings',
         items: [
@@ -14,9 +14,9 @@ const marbleLinks = [
           { text: 'Fastboot/Recovery Mode', link: '/custom-rom-guide/common/fastboot-recovery-mode' },
         ]
       },
-      { text: 'Unlock Bootloader', link: '/custom-rom-guide/marble/unlock-bootloader' },
-      { text: 'Install Custom Recovery', link: '/custom-rom-guide/marble/install-custom-recovery' },
-      { text: 'Flash Custom ROM', link: '/custom-rom-guide/marble/flash-custom-rom' }
+      { text: 'Unlock Bootloader', link: '/custom-rom-guide/     <!-- DEVICE CODENAME -->     /unlock-bootloader' },       /*Edit This Line*/
+      { text: 'Install Custom Recovery', link: '/custom-rom-guide/      <!-- DEVICE CODENAME -->    /install-custom-recovery' },    /*Edit This Line*/
+      { text: 'Flash Custom ROM', link: '/custom-rom-guide/      <!-- DEVICE CODENAME -->       /flash-custom-rom' }    /*Edit This Line*/
     ]
   },
   {
@@ -30,7 +30,7 @@ const marbleLinks = [
     text: 'Post ROM Installation',
     items: [
       { text: 'About Root', link: '/custom-rom-guide/common/about-root' },
-      { text: 'Rooting Device', link: '/custom-rom-guide/marble/rooting-device' },
+      { text: 'Rooting Device', link: '/custom-rom-guide/    <!-- DEVICE CODENAME -->     /rooting-device' },    /*Edit This Line*/
       { text: 'About Integrity/Safetynet', link: '/custom-rom-guide/common/about-integrity-safetynet' }
     ]
   },
@@ -38,7 +38,11 @@ const marbleLinks = [
     text: 'Help',
     items: [
       { text: 'About Brick', link: '/custom-rom-guide/common/about-brick' },
-      { text: 'Softbrick Help', link: '/custom-rom-guide/marble/softbrick-help' }
+      { text: 'Softbrick Help', link: '/custom-rom-guide/    <!-- DEVICE CODENAME -->   /softbrick-help' }    /*Edit This Line*/
+
+      /*{ text: 'Hardbrick Help', link: '/custom-rom-guide/     <!-- DEVICE CODENAME -->     /softbrick-help' }*/
+      /*Uncomment and adjust the above line if you're adding hardbrick-help page*/
+
     ]
   }
 ];
@@ -66,7 +70,7 @@ export default defineConfig({
 
     siteTitle: 'Morphous',
     description: 'A Practical Approach for Modding Android',
-    sidebar: marbleLinks,
+    sidebar: /*CODENAME*/Links,                                /*Do not add extra space (Example: VenusLinks, MarbleLinks, HuskyLinks*/
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hyperglass' },
@@ -74,7 +78,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/hyperglass/morphous-marble/edit/main/docs/:path',
+      pattern: 'https://github.com/hyperglass/morphous-    <!-- DEVICE CODENAME -->    /edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
@@ -103,5 +107,5 @@ export default defineConfig({
   },
   title: 'Morphous',
   ignoreDeadLinks: true,
-  base: '/morphous-marble/',
+  base: '/morphous-    <!-- DEVICE CODENAME -->   /',   /*Edit This Line*/
 });

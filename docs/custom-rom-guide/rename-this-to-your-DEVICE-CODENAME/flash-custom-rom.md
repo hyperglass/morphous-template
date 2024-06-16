@@ -11,7 +11,9 @@ Go to `Wipe` and select everything except Internal storage and USB-Storage and h
 > while wiping if you bymistakely selected USB-Storage as well, it will give an error and won't delete you're PC data due to different file system.
 - - -
 ### 2. Flash Firmware
-Download the **Latest Firmware** for your device on PC.
+
+
+Download the **Latest Firmware** for your device on PC. <!-- Firmware Download link may require change.  -->
 <CustomButton link="https://xmfirmwareupdater.com" label="Visit XM Firmware Updater Website" />
 > Once you have the downloaded the archive, extract it.
 

@@ -15,11 +15,11 @@ Please see [how to boot into Fastboot Mode](/custom-rom-guide/common/boot-into-f
 :::
 
 ## Download Custom Recovery
-We are going to use OrangeFox Recovery Project (OFRP) in this guide for _Poco F5/Redmi Note 12 Turbo_.
+We are going to use <!-- Name of the recovery used for your Device comes here. --> Recovery Project <!-- Write Shortform of the Recovery here (for example TWRP, OFRP, etc.) --> in this guide for _<!-- Device name(s) comes here. Should be specific model i.e Pro,S,R,Plus,etc. -->_.
 
-<CustomButton link="https://github.com/Ctapchuk/android_device_xiaomi_marble-OFRP/releases" label="Download OFRP for Poco F5 from GitHub" />
+<CustomButton link="<--- ###RECOVERY LINK COMES HERE### --->" label="Download OFRP for <--- ###DEVICE NAME### ---> from GitHub" />
 
-You should also go through the instructions there.
+You should also go through the instructions there. <!-- This is an extra instruction. Modify it accordingly. -->
 
 * Go to this GitHub page and Download the latest Beta image `.img` file.
 * If you want are following the second method, download the latest Beta archive `.zip` file.

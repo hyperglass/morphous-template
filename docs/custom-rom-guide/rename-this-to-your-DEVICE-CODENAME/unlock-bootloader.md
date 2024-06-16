@@ -1,6 +1,9 @@
+<!-- THIS WHOLE PAGE MAY OR MAY NOT REQUIRE A LOT OF MODIFICATIONS. THESE INSTRUCTIONS ARE AN EXAMPLE OF POCO F5 SOFTBRICK HELP. -->
+<!-- If it is a Miui Device only, kindly erase the HyperOS related instructions completely. -->
+
 # Which Section to Follow
 * If you're device is running MIUI, Follow [this section](/custom-rom-guide/marble/unlock-bootloader#unlock-bootloader-miui).
-* If you're device is running HyperOS, Follow [this section](/custom-rom-guide/marble/unlock-bootloader#unlock-bootloader-hyperos).
+* If you're device is running HyperOS, Follow [this section](/custom-rom-guide/marble/unlock-bootloader#unlock-bootloader-hyperos).<!---->
 - - -
 :::danger VERY IMPORTANT
  Backup your device's data before Unlocking the Bootloader as it will erase all phone data (Unlocking the bootloader will result in a factory reset).
@@ -63,7 +66,7 @@ Your Device will now be Factory Reset and bootloader should be unlocked.
 > You can check the status of your device's Bootloader in `Mi Unlock Status` section inside Developer Options in Settings App.
 
 
-## Unlock Bootloader (HyperOS)
+## Unlock Bootloader (HyperOS) <!-- HyperOS Related Instructions start from here. -->
 <Badge type="tip">Instructions for unlocking bootloader on HyperOS</Badge>
 Download and install the latest Mi Community App and sign in with your Mi account.
 > Download from the below link or a simple "mi community apk" web search will do the work.
@@ -88,6 +91,7 @@ If you get an error when applying for unlocking in Mi Community app, Go back to 
 - - -
 ### From here, follow same instructions as MIUI; for HyperOS
 Follow the same instructions from [Unlock Bootloader (MIUI)](/custom-rom-guide/marble/unlock-bootloader#unlock-bootloader-miui) section to unlock the bootloader of HyperOS.
+<!-- HyperOS Related Instructions end here. -->
 
 :::info Extra References
 https://xiaomiwiki.github.io/wiki/Unlock_the_bootloader.html
