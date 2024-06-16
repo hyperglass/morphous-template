@@ -19,7 +19,7 @@ hero:
 
 
 <!-- Don't forget to rename device specific folder to DEVICE-CODENAME, modify config.js. -->
-<!-- There is no need to modify anything inside the common folder, theme folder, dist folder, components folder. -->
+<!-- There is no need to modify anything inside the common folder, theme folder, dist folder, components folder. However if you want you can modify the disclaimer page. -->
 
 <!-- .gitattributes, LICENSE and few other files/folders were generated for repository creation on GitHub. -->
 <!-- package-lock.json and package.json are required for building website. No need to modify them. -->

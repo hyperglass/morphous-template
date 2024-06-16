@@ -1,1 +1,2 @@
 # We are NOT responsible for bricked devices, dead SD cards, Ebolation X, thermonuclear war, or the current economic crisis caused by you following these directions. YOU are choosing to make these modificiations, and if you point your finger at me for messing up your device, I will LMAO at you.
+<!-- Inside the common folder, nothing else but this can sure be modified :P  -->
